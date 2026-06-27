@@ -1,0 +1,8 @@
+agent_url: "TBD_AFTER_PUBLIC_REPO_IS_CREATED"
+agent_display_name: "DAIS-Agent"
+agent_org_display_name: "Disruptive AI Solutions - DAIS"
+models:
+  - model_name: "gpt-5.5"
+    model_provider: "openai"
+    model_display_name: "GPT-5.5"
+    model_org_display_name: "OpenAI"
