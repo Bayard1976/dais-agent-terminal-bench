@@ -1,3 +1,8 @@
+---
+name: dais-agent-public
+description: Public-safe Terminal-Bench task guidance for exact verifier-oriented implementation.
+---
+
 # DAIS-Agent Public Benchmark Guidance
 
 Use plain implementation language only.
