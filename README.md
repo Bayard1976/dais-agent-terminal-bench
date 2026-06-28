@@ -22,8 +22,13 @@ The lane uses Harbor's built-in `codex` agent with a compact public skill that e
 - Guarded full five-attempt run script
 - Local readiness guidance
 - Metadata template
+- Public transparency timeline
 
 It does not contain API keys, private local run artifacts, private prompts, protected project internals, or leaderboard submission data.
+
+## Transparency Timeline
+
+See [TRANSPARENCY_TIMELINE.md](TRANSPARENCY_TIMELINE.md) for founder context, the Terminal-Bench 2.1 five-run timeline, and the boundary between internal official-style evidence and accepted public leaderboard results.
 
 ## Quick Start
 
