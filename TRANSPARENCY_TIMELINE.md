@@ -43,3 +43,7 @@ Aggregate result: `379/445 = 85.17%`
 ## Boundary
 
 This timeline is a transparency note. It does not itself create an official leaderboard result. Public score claims should depend only on accepted Terminal-Bench submission artifacts and the official process.
+
+## Protection-Layer Audit Note
+
+A post-run audit checked whether the instruction to keep DAIS inner-engine material private caused candidate-output vetoes or false finalization blocks. The audit found no direct evidence of protection-layer false blocks. Misses reviewed in Run 1 were classified as concrete verifier/artifact failures, and a direct signal screen across all five runs did not justify a broader veto-causality claim.
