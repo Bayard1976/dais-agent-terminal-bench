@@ -10,7 +10,8 @@ The lane uses Harbor's built-in `codex` agent with a compact public skill that e
 - Dataset: `terminal-bench/terminal-bench-2-1`
 - Harness: Harbor
 - Agent: Harbor built-in `codex`
-- Model used in the prepared lane: `gpt-5.5`
+- Public label: `GPT-5.5 High + DAIS-Agent`
+- Technical model setting: `gpt-5.5 / reasoning_effort=high / DAIS public skill`
 - Execution: local Docker through Harbor
 
 ## What This Repository Contains
@@ -41,7 +42,7 @@ Run a one-task compliance probe:
 Run the full official-grade workload only after explicit authorization:
 
 ```powershell
-.\RUN_PUBLIC_CODEX_FULL_5_ATTEMPTS_GUARDED.ps1 -AuthorizationPhrase "I authorize the clean public-safe Terminal-Bench 2.1 GPT-5.5 five-attempt run now."
+.\RUN_PUBLIC_CODEX_FULL_5_ATTEMPTS_GUARDED.ps1 -AuthorizationPhrase "I authorize the clean public-safe Terminal-Bench 2.1 GPT-5.5 High + DAIS-Agent five-attempt run now."
 ```
 
 Before upload, run the local readiness audit from the private working folder and confirm that trajectories, trace export, metadata, and exposure checks pass. Do not upload directly from this repository without that local audit.
