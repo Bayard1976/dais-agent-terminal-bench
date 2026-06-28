@@ -1,4 +1,4 @@
-agent_url: "TBD_AFTER_PUBLIC_REPO_IS_CREATED"
+agent_url: "https://github.com/Bayard1976/dais-agent-terminal-bench"
 agent_display_name: "DAIS-Agent"
 agent_org_display_name: "Disruptive AI Solutions - DAIS"
 models:
