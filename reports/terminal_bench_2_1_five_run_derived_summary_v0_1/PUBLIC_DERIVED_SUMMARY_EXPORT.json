@@ -1,0 +1,785 @@
+{
+  "schema": "always_on_public_derived_summary_export_v0_1",
+  "generated_local": "2026-06-29T10:47:22",
+  "source": {
+    "result_id": "ca3a6ed4-a5d1-4a2a-b97a-21e79ea7b629",
+    "dataset": "terminal-bench/terminal-bench-2-1",
+    "model_label": "gpt-5.5",
+    "agent_label": "DAIS-Agent",
+    "eval_name": "codex__gpt-5.5__terminal-bench/terminal-bench-2-1"
+  },
+  "aggregate_result": {
+    "total_trials": 445,
+    "completed_trials": 445,
+    "errored_trials": 38,
+    "running_trials": 0,
+    "pending_trials": 0,
+    "cancelled_trials": 0,
+    "mean_reward": 0.755056179775281,
+    "pass_at_k": {
+      "2": 0.8325842696629213,
+      "4": 0.8853932584269663,
+      "5": 0.898876404494382
+    }
+  },
+  "per_task_status": [
+    {
+      "task_id": "adaptive-rejection-sampler",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "bn-fit-modify",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "break-filter-js-from-html",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "build-cython-ext",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "build-pmars",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "build-pov-ray",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "caffe-cifar-10",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 1,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "cancel-async-tasks",
+      "attempts_seen": 5,
+      "pass_count": 2,
+      "fail_count": 3,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "chess-best-move",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "circuit-fibsqrt",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "cobol-modernization",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "code-from-image",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "compile-compcert",
+      "attempts_seen": 5,
+      "pass_count": 3,
+      "fail_count": 2,
+      "error_count": 2,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "configure-git-webserver",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "constraints-scheduling",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "count-dataset-tokens",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "crack-7z-hash",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "custom-memory-heap-crash",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "db-wal-recovery",
+      "attempts_seen": 5,
+      "pass_count": 2,
+      "fail_count": 3,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "distribution-search",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "dna-assembly",
+      "attempts_seen": 5,
+      "pass_count": 0,
+      "fail_count": 5,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "dna-insert",
+      "attempts_seen": 5,
+      "pass_count": 1,
+      "fail_count": 4,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "extract-elf",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "extract-moves-from-video",
+      "attempts_seen": 5,
+      "pass_count": 1,
+      "fail_count": 4,
+      "error_count": 4,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "feal-differential-cryptanalysis",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "feal-linear-cryptanalysis",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "filter-js-from-html",
+      "attempts_seen": 5,
+      "pass_count": 0,
+      "fail_count": 5,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "financial-document-processor",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "fix-code-vulnerability",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "fix-git",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "fix-ocaml-gc",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "gcode-to-text",
+      "attempts_seen": 5,
+      "pass_count": 0,
+      "fail_count": 5,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "git-leak-recovery",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "git-multibranch",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "gpt2-codegolf",
+      "attempts_seen": 5,
+      "pass_count": 1,
+      "fail_count": 4,
+      "error_count": 2,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "headless-terminal",
+      "attempts_seen": 5,
+      "pass_count": 2,
+      "fail_count": 3,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "hf-model-inference",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "install-windows-3.11",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "kv-store-grpc",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "large-scale-text-editing",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "largest-eigenval",
+      "attempts_seen": 5,
+      "pass_count": 3,
+      "fail_count": 2,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "llm-inference-batching-scheduler",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "log-summary-date-ranges",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "mailman",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "make-doom-for-mips",
+      "attempts_seen": 5,
+      "pass_count": 0,
+      "fail_count": 5,
+      "error_count": 3,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "make-mips-interpreter",
+      "attempts_seen": 5,
+      "pass_count": 0,
+      "fail_count": 5,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "mcmc-sampling-stan",
+      "attempts_seen": 4,
+      "pass_count": 2,
+      "fail_count": 2,
+      "error_count": 2,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "merge-diff-arc-agi-task",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "model-extraction-relu-logits",
+      "attempts_seen": 5,
+      "pass_count": 1,
+      "fail_count": 4,
+      "error_count": 4,
+      "error_classes": [
+        "NonZeroAgentExitCodeError"
+      ]
+    },
+    {
+      "task_id": "modernize-scientific-stack",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "mteb-leaderboard",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "mteb-retrieve",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "multi-source-data-merger",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "nginx-request-logging",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "openssl-selfsigned-cert",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "overfull-hbox",
+      "attempts_seen": 5,
+      "pass_count": 3,
+      "fail_count": 2,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "password-recovery",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "path-tracing",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "path-tracing-reverse",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "polyglot-c-py",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "polyglot-rust-c",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "portfolio-optimization",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "protein-assembly",
+      "attempts_seen": 5,
+      "pass_count": 0,
+      "fail_count": 5,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "prove-plus-comm",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "pypi-server",
+      "attempts_seen": 5,
+      "pass_count": 3,
+      "fail_count": 2,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "pytorch-model-cli",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "pytorch-model-recovery",
+      "attempts_seen": 4,
+      "pass_count": 3,
+      "fail_count": 1,
+      "error_count": 1,
+      "error_classes": [
+        "VerifierTimeoutError"
+      ]
+    },
+    {
+      "task_id": "qemu-alpine-ssh",
+      "attempts_seen": 5,
+      "pass_count": 2,
+      "fail_count": 3,
+      "error_count": 3,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "qemu-startup",
+      "attempts_seen": 5,
+      "pass_count": 3,
+      "fail_count": 2,
+      "error_count": 2,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "query-optimize",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "raman-fitting",
+      "attempts_seen": 5,
+      "pass_count": 0,
+      "fail_count": 5,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "regex-chess",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "regex-log",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "reshard-c4-data",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "rstan-to-pystan",
+      "attempts_seen": 5,
+      "pass_count": 3,
+      "fail_count": 2,
+      "error_count": 3,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "sam-cell-seg",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "sanitize-git-repo",
+      "attempts_seen": 5,
+      "pass_count": 4,
+      "fail_count": 1,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "schemelike-metacircular-eval",
+      "attempts_seen": 5,
+      "pass_count": 1,
+      "fail_count": 4,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "sparql-university",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "sqlite-db-truncate",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "sqlite-with-gcov",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "torch-pipeline-parallelism",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "torch-tensor-parallelism",
+      "attempts_seen": 3,
+      "pass_count": 3,
+      "fail_count": 0,
+      "error_count": 2,
+      "error_classes": [
+        "VerifierTimeoutError"
+      ]
+    },
+    {
+      "task_id": "train-fasttext",
+      "attempts_seen": 4,
+      "pass_count": 0,
+      "fail_count": 4,
+      "error_count": 5,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "tune-mjcf",
+      "attempts_seen": 5,
+      "pass_count": 0,
+      "fail_count": 5,
+      "error_count": 4,
+      "error_classes": [
+        "AgentTimeoutError"
+      ]
+    },
+    {
+      "task_id": "video-processing",
+      "attempts_seen": 5,
+      "pass_count": 1,
+      "fail_count": 4,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "vulnerable-secret",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "winning-avg-corewars",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    },
+    {
+      "task_id": "write-compressor",
+      "attempts_seen": 5,
+      "pass_count": 5,
+      "fail_count": 0,
+      "error_count": 0,
+      "error_classes": []
+    }
+  ],
+  "submission_state": {
+    "state": "READY_AWAITING_EXPLICIT_UPLOAD_AUTHORIZATION_NOT_UPLOADED",
+    "upload_or_submission_evidence_present": false,
+    "public_claim_allowed": false
+  },
+  "boundaries": {
+    "raw_job_upload_allowed": false,
+    "raw_logs_included": false,
+    "trajectories_included": false,
+    "task_solutions_included": false,
+    "verifier_stdout_stderr_included": false,
+    "local_paths_in_public_artifact": false,
+    "upload_or_submission_performed_by_this_tool": false,
+    "model_api_call_made_by_this_tool": false,
+    "benchmark_task_started_by_this_tool": false,
+    "public_claim_made_by_this_tool": false
+  },
+  "proof_ceiling": "derived local public-safe summary candidate only; not an upload, not a submission, not official leaderboard proof, and not a public score claim"
+}

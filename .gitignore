@@ -1,6 +1,10 @@
 secrets/
 jobs/
 reports/
+!reports/
+reports/*
+!reports/terminal_bench_2_1_five_run_derived_summary_v0_1/
+!reports/terminal_bench_2_1_five_run_derived_summary_v0_1/**
 *.zip
 *.tar
 *.gz

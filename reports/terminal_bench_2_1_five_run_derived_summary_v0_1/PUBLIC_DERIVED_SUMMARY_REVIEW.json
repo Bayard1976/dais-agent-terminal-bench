@@ -1,0 +1,21 @@
+{
+  "schema": "always_on_public_derived_summary_review_v0_1",
+  "generated_local": "2026-06-29T10:47:37",
+  "verdict": "PUBLIC_DERIVED_SUMMARY_REVIEW_PASS_LOCAL_ONLY",
+  "derived_report_path": "C:\\DAIS Projects\\RG Library\\tools\\always_on_public_derived_summary_export_v0_1\\reports\\always_on_public_derived_summary_export_report.json",
+  "derived_summary_path": "C:\\DAIS Projects\\RG Library\\tools\\always_on_public_derived_summary_export_v0_1\\reports\\PUBLIC_DERIVED_SUMMARY_EXPORT.json",
+  "derived_markdown_path": "C:\\DAIS Projects\\RG Library\\tools\\always_on_public_derived_summary_export_v0_1\\reports\\PUBLIC_DERIVED_SUMMARY_EXPORT.md",
+  "aggregate_count_mismatches": {},
+  "per_task_status_count": 89,
+  "secret_scan_result": "PASS",
+  "local_path_scan_result": "PASS",
+  "raw_reference_scan_result": "PASS",
+  "scan_values_printed": false,
+  "blockers": [],
+  "warnings": [],
+  "benchmark_task_started_by_this_tool": false,
+  "model_api_call_made_by_this_tool": false,
+  "upload_or_submission_performed_by_this_tool": false,
+  "public_claim_made_by_this_tool": false,
+  "proof_ceiling": "local derived-summary artifact review only; not an upload, not a submission, not official leaderboard proof, and not a public score claim"
+}

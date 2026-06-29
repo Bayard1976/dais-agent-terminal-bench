@@ -30,6 +30,15 @@ It does not contain API keys, private local run artifacts, private prompts, prot
 
 See [TRANSPARENCY_TIMELINE.md](TRANSPARENCY_TIMELINE.md) for founder context, the Terminal-Bench 2.1 five-run timeline, and the boundary between internal official-style evidence and accepted public leaderboard results.
 
+## Derived Five-Run Summary
+
+A public-safe derived summary of the local Terminal-Bench 2.1 five-attempt run is available at:
+
+- [reports/terminal_bench_2_1_five_run_derived_summary_v0_1/PUBLIC_DERIVED_SUMMARY_EXPORT.md](reports/terminal_bench_2_1_five_run_derived_summary_v0_1/PUBLIC_DERIVED_SUMMARY_EXPORT.md)
+- [reports/terminal_bench_2_1_five_run_derived_summary_v0_1/PUBLIC_DERIVED_SUMMARY_EXPORT.json](reports/terminal_bench_2_1_five_run_derived_summary_v0_1/PUBLIC_DERIVED_SUMMARY_EXPORT.json)
+
+This is a derived public-safe summary only. It is not a raw Harbor log upload, not an accepted leaderboard result, and not an official public score.
+
 ## Quick Start
 
 Run preflight:
